@@ -1,0 +1,47 @@
+{
+  "Edmond Halley": {
+    "id" : 0,
+    "state": "IL",
+    "active": 1
+  },
+  "Dorothy Hodgkin": {
+    "id" : 1,
+    "state": "IL",
+    "active": 0
+  },
+  "Albert Einstein": {
+    "id" : 2,
+    "state": "IL",
+    "active": 1
+  },
+  "Caroline Herschel": {
+    "id" : 3,
+    "state": "MI",
+    "active": 0
+  },
+  "Dare Afolabi": {
+    "id" : 4,
+    "state": "IN",
+    "active": 1
+  },
+  "Enrico Fermi": {
+    "id" : 5,
+    "state": "IN",
+    "active": 0
+  },
+  "Lise Meitner": {
+    "id" : 6,
+    "state": "IA",
+    "active": 1
+  },
+  "Lord Kelvin": {
+    "id" : 7,
+    "state": "WI",
+    "active": 0
+  },
+  "Maria Mitchell": {
+    "id" : 8,
+    "state": "OH",
+    "active": 1
+  }
+}
