@@ -30,7 +30,7 @@ require 'logic.php';
 
     </div>
 </nav>
-<main role="main">
+<main role="">
     <div class="jumbotron">
         <h1>List Filter Application</h1>
         <?php if (isset($username) && $username != ""): ?>
@@ -56,14 +56,14 @@ require 'logic.php';
             <h3>Filter Form</h3>
             <div class="form-row">
                 <div class="form-group col-md-3">
-                    <label for="inputEmail4">Name</label>
-                    <input type="text" name="username" class="form-control" placeholder="name"
+                    <label for="username">Name</label>
+                    <input id="username" type="text" name="username" class="form-control" placeholder="name"
                            value="<?php if (isset($username)) echo $username ?>">
                 </div>
                 <div class="form-group col-md-3">
-                    <label for="inputEmail4">State</label>
-                    <select class="form-control" name="state">
-                        <option value=""></option>
+                    <label for="state">State</label>
+                    <select id="state" class="form-control" name="state">
+                        <option value=" "></option>
                         <option value="AL">AL</option>
                         <option value="AK">AK</option>
                         <option value="AZ">AZ</option>
