@@ -30,7 +30,7 @@ require 'logic.php';
 
     </div>
 </nav>
-<main role="">
+<main>
     <div class="jumbotron">
         <h1>List Filter Application</h1>
         <?php if (isset($username) && $username != ""): ?>
@@ -63,7 +63,7 @@ require 'logic.php';
                 <div class="form-group col-md-3">
                     <label for="state">State</label>
                     <select id="state" class="form-control" name="state">
-                        <option value=" "></option>
+                        <option value="">Select State</option>
                         <option value="AL">AL</option>
                         <option value="AK">AK</option>
                         <option value="AZ">AZ</option>
